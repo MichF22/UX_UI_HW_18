@@ -55,7 +55,7 @@ a {
 .start {
   /* border: var(--ln); */
   span: 12;
-  height: 320px;
+  height: 30%;
 }
 
 #intro {
