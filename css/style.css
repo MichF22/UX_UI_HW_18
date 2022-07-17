@@ -16,11 +16,8 @@ body {
   --ln: 1px solid #424242;
 }
 
-.main_div {
-  position: relative;
-  min-height: 100vh;
-}
 
+/* Header */
 #header_nav {
   float: right;
   top: 0;
@@ -31,9 +28,7 @@ body {
   display: flex;
   align-items: center;
   gap: 1.5rem;
-  /* float: right;
-  padding-right: 20px;
-  padding-top: 20px; */
+  margin-top: 2rem;
 }
 
 a {
@@ -50,8 +45,21 @@ a {
   padding-bottom: 2px;
 }
 
+
+/* Intro */
+.main_div {
+  position: relative;
+  min-height: 100vh;
+}
+
+.start {
+  /* border: var(--ln); */
+  span: 12;
+  height: 320px;
+}
+
 #intro {
-  padding-top: 100px;
+  padding-top: 120px;
   padding-left: 20px;
   padding-bottom: 20px;
   font-family: 'Poppins';
@@ -80,12 +88,10 @@ a {
   background-color: transparent;
   background-repeat: no-repeat;
   border: none;
-  /* padding: 16px 32px; */
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
-  /* margin: 4px 2px; */
   transition-duration: 0.4s;
   cursor: pointer;
   overflow: hidden align right
@@ -103,6 +109,24 @@ a {
   border: none;
 }
 
+.section_line{
+  display: block;
+  margin-top: 7rem;
+  overflow: hidden;
+  border-style: double;
+  border-width: 2px;
+  color: #409488;
+}
+
+.section_header{
+  font-family: 'Inconsolata';
+  /* font-style: light; */
+  font-size: 36px;
+  color: #409488;
+  margin-top: 2rem;
+}
+
+/* Projects */
 .hero {
   height: 100%;
   /* border: var(--ln); */
@@ -115,21 +139,15 @@ a {
   display: flex;
 }
 
-.start {
-  /* border: var(--ln); */
-  span: 12;
-  height: 320px;
+.hlinelist li {
+  margin-top: 5px;
+  display: inline-block;
+  font-family: "poppins";
+  font-size: 13px;
 }
 
-.hero .right {
-  flex-direction: column;
-  grid-column: span 4;
-  /* border: var(--ln); */
-  justify-content: center;
-  align-items: center;
-}
 
-/* left section in grid */
+/* Left Section */
 .hero .left {
   flex-direction: column;
   grid-column: span 8;
@@ -147,41 +165,32 @@ a {
 
 #img1 {
   padding-top: 15%;
-  padding-left: 20%;
+  padding-left: 15%;
   width: 85%;
   height: 80%;
 }
 
-/* left section in grid */
 
-#img2 {
-  padding-top: 20%;
-  padding-left: 23%;
-  width: 80%;
-  height: 85%;
-}
-
-.footer {
+/* Right Section */
+.hero .right {
+  flex-direction: column;
+  grid-column: span 4;
   /* border: var(--ln); */
-  span: 12;
-  height: 200px;
-}
-
-.hlinelist li {
-  margin-top: 5px;
-  display: inline-block;
-  font-family: "poppins";
-  font-size: 13px;
-}
-
-.hlinelist {
-  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .coloured_container_2 {
   width: 100%;
   height: 70%;
   background-color: #4FBAD1;
+}
+
+#img2 {
+  padding-top: 20%;
+  padding-left: 25%;
+  width: 75%;
+  height: 85%;
 }
 
 .text_under_image {
@@ -192,6 +201,18 @@ a {
   font-family: "poppins";
   font-size: 20px;
   text-align: center;
+}
+
+.hlinelist {
+  text-align: center;
+}
+
+
+/* Footer */
+.footer {
+  /* border: var(--ln); */
+  span: 12;
+  height: 200px;
 }
 
 .footer {
