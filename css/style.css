@@ -45,7 +45,6 @@ a {
   padding-bottom: 2px;
 }
 
-
 /* Intro */
 .main_div {
   position: relative;
@@ -54,8 +53,9 @@ a {
 
 .start {
   /* border: var(--ln); */
-  span: 12;
-  height: 30%;
+  height: 40%;
+  position: relative;
+  /* margin-bottom: 0.5rem; */
 }
 
 #intro {
@@ -111,14 +111,14 @@ a {
 
 .section_line{
   display: block;
-  margin-top: 7rem;
+  margin-top: 5%;
   overflow: hidden;
   border-style: double;
   border-width: 2px;
   color: #409488;
 }
 
-.section_header{
+#section_header{
   font-family: 'Inconsolata';
   /* font-style: light; */
   font-size: 36px;
@@ -129,6 +129,7 @@ a {
 /* Projects */
 .hero {
   height: 100%;
+  position: relative;
   /* border: var(--ln); */
   display: grid;
   grid-template-columns:
@@ -187,10 +188,11 @@ a {
 }
 
 #img2 {
-  padding-top: 20%;
-  padding-left: 25%;
-  width: 75%;
-  height: 85%;
+  padding-top: 30%;
+  padding-left: 20%;
+  padding-right: 10%;
+  width: 90%;
+  height: 35rem;
 }
 
 .text_under_image {
@@ -211,8 +213,8 @@ a {
 /* Footer */
 .footer {
   /* border: var(--ln); */
-  span: 12;
-  height: 200px;
+  height: 10%;
+  position: relative;
 }
 
 .footer {
